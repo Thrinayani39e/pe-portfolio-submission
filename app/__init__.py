@@ -3,7 +3,7 @@
 import os
 from flask import Flask, render_template
 from dotenv import load_dotenv
-from app.constants import NAV_LINKS, PAGE_TITLES, HOBBIES
+from app.constants import NAV_LINKS, PAGE_TITLES, HOBBIES, PROJECTS
 
 load_dotenv()
 app = Flask(__name__)
@@ -45,7 +45,12 @@ def experience():
 @app.route("/projects")
 def projects():
     """Render the projects page."""
-    return render_template("components/projects.html", title=PAGE_TITLES["projects"], active_page="projects")
+    return render_template(
+        "components/projects.html",
+        title=PAGE_TITLES["projects"],
+        active_page="projects",
+        projects=PROJECTS,
+    )
 
 
 @app.route("/hobbies")

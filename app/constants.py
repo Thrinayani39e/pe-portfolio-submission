@@ -52,3 +52,34 @@ HOBBIES = {
         },
     ],
 }
+
+PROJECTS = {
+    "ruth": [
+        {
+            "name": "Robotics Simulation",
+            "description": "Worked with different path planning algorithms to best test how mobile base robots can traverse through maze-like environments!",
+            "image": "img/projects/ruth/robotics.jpg",
+            "link": "",
+        },
+        {
+            "name": "Drug-Gene Relationship Analyzer",
+            "description": "Worked with Hetionet biomedical knowledge graph data to explore how drug compounds connect to genes and diseases, using machine learning to predict their therapeutic potential.",
+            "image": "img/projects/ruth/drug.jpg",
+            "link": "",
+        },
+    ],
+    "thrinayani": [
+        {
+            "name": "[Project name]",
+            "description": "[What it does and why you liked building it]",
+            "image": "img/projects/thrinayani/project1.jpg",
+            "link": "",
+        },
+        {
+            "name": "[Project name]",
+            "description": "[Short description]",
+            "image": "img/projects/thrinayani/project2.jpg",
+            "link": "",
+        },
+    ],
+}
