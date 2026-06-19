@@ -43,13 +43,3 @@ EXPERIENCES = [
     },
 ]
 
-EDUCATION = [
-    {
-        "school": "University Name",
-        "degree": "Bachelor of Science in Computer Science",
-        "dates": "Year – Year",
-        "highlights": [
-            "Relevant coursework, honor, or activity worth mentioning.",
-        ],
-    },
-]
