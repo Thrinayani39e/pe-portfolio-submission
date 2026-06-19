@@ -1,4 +1,24 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+<div class="section-container">
+    <h2 class="section-title">Work Experience</h2>
+    {% for exp in experiences %}
+    <div class="experience-card">
+        <div class="experience-header">
+            <div>
+                <h3 class="experience-role">{{ exp.role }}</h3>
+                <span class="experience-company">{{ exp.company }}</span>
+            </div>
+            <span class="experience-dates">{{ exp.dates }}</span>
+        </div>
+        <ul class="experience-bullets">
+            {% for bullet in exp.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>
 {% endblock %}
