@@ -31,8 +31,7 @@ pe-portfolio-submission/
 │           ├── about.html       # About page — profiles, bios, travel map
 │           ├── experience.html  # Experience page — two sections (Ruth / Thrinayani)
 │           ├── hobbies.html     # Hobbies page — two sections (Ruth / Thrinayani)
-│           ├── projects.html    # Projects page
-│           └── home.html        # Unused (/ redirects to /about)
+│           └── projects.html    # Projects page
 ├── example.env                  # Template for environment variables
 ├── requirements.txt             # Python dependencies
 └── README.md
