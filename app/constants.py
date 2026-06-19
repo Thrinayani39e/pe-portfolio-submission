@@ -134,14 +134,19 @@ EXPERIENCES = {
 HOBBIES = {
     "ruth": [
         {
-            "name": "Hobby One",
-            "description": "A short description of this hobby and why Ruth enjoys it.",
-            "image": "img/hobbies/ruth/hobby1.jpg",
+            "name": "Photography",
+            "description": "I love doing event and portrait photography and love meeting new people!",
+            "image": "img/hobbies/ruth/photography.jpg",
         },
         {
-            "name": "Hobby Two",
-            "description": "A short description of this hobby and why Ruth enjoys it.",
-            "image": "img/hobbies/ruth/hobby2.jpg",
+            "name": "Hiking",
+            "description": "I love to explore new trails and go to different states!",
+            "image": "img/hobbies/ruth/hiking.jpeg",
+        },
+        {
+            "name": "Concerts",
+            "description": "I love listening to live music and have seen Jhene Aiko, Bad Bunny, Karol G, Kaytranada, Andre 3000, Cleo Sol, and more!",
+            "image": "img/hobbies/ruth/concert.jpeg",
         },
     ],
     "thrinayani": [
@@ -154,6 +159,37 @@ HOBBIES = {
             "name": "Cafe Hopping",
             "description": "I love trying new coffee varieties and different cuisines — there's always a new spot to explore!",
             "image": "img/hobbies/thrinayani/cafe.jpeg",
+        },
+    ],
+}
+
+PROJECTS = {
+    "ruth": [
+        {
+            "name": "Robotics Simulation",
+            "description": "Worked with different path planning algorithms to best test how mobile base robots can traverse through maze-like environments!",
+            "image": "img/projects/ruth/robotics.jpg",
+            "link": "",
+        },
+        {
+            "name": "Drug-Gene Relationship Analyzer",
+            "description": "Worked with Hetionet biomedical knowledge graph data to explore how drug compounds connect to genes and diseases, using machine learning to predict their therapeutic potential.",
+            "image": "img/projects/ruth/drug.jpg",
+            "link": "",
+        },
+    ],
+    "thrinayani": [
+        {
+            "name": "[Project name]",
+            "description": "[What it does and why you liked building it]",
+            "image": "img/projects/thrinayani/project1.jpg",
+            "link": "",
+        },
+        {
+            "name": "[Project name]",
+            "description": "[Short description]",
+            "image": "img/projects/thrinayani/project2.jpg",
+            "link": "",
         },
     ],
 }

@@ -192,6 +192,19 @@ body {
     padding: 0;
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1C539F;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
 .exp-person-section {
     max-width: 860px;
     margin: 0 auto 60px;
