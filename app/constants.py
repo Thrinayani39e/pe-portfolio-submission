@@ -47,7 +47,9 @@ EXPERIENCES = {
             "dates": "Current",
             "logo": "img/experience/mit.png",
             "current": True,
-            "bullets": [],
+            "bullets": [
+                "New position, collaborating with researchers at MIT FMML to build and evaluate machine learning models for healthcare and women's health studies.",
+            ],
         },
         {
             "role": "Software Engineer Intern — Robotics Simulation",
@@ -55,7 +57,10 @@ EXPERIENCES = {
             "dates": "",
             "logo": "img/experience/nvidia.png",
             "current": False,
-            "bullets": [],
+            "bullets": [
+                "Integrated a Rapidly-exploring Random Tree (RRT)-based motion planning algorithm into NVIDIA Isaac Sim using Python, interfacing with underlying C++ planning libraries to enable global path planning for a mobile-based robot.",
+                "Designed and generated randomized maze-like simulation environments in Python to model real-world navigation constraints and evaluate planner success rates across diverse scenarios.",
+            ],
         },
         {
             "role": "Research Intern — ICCAN Team",
@@ -63,7 +68,10 @@ EXPERIENCES = {
             "dates": "",
             "logo": "img/experience/mskcc.jpg",
             "current": False,
-            "bullets": [],
+            "bullets": [
+                "Developed Python-based data processing pipelines to clean and structure patient monitoring datasets exported from REDCap systems, improving data quality and reducing manual workload.",
+                "Evaluated patient-generated health data from a blood pressure telemonitoring study to identify trends supporting data-driven clinical decision-making, presenting findings and reporting statistical changes to the principal investigator.",
+            ],
         },
         {
             "role": "Teaching Assistant — ENGR 11A: Intro to Design Methodology",
@@ -71,7 +79,10 @@ EXPERIENCES = {
             "dates": "",
             "logo": "img/experience/brandeis.png",
             "current": False,
-            "bullets": [],
+            "bullets": [
+                "Guided development of student engineering projects by debugging code and assisting with implementation of web-based systems using Python, Bootstrap, and API integrations.",
+                "Troubleshot technical issues across hardware and software workflows, including 3D printing, laser cutting, and CNC machining, ensuring successful project execution.",
+            ],
         },
     ],
     "thrinayani": [
