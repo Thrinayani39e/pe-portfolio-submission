@@ -3,7 +3,7 @@
 import os
 from flask import Flask, render_template
 from dotenv import load_dotenv
-from app.constants import NAV_LINKS, PAGE_TITLES
+from app.constants import NAV_LINKS, PAGE_TITLES, HOBBIES
 
 load_dotenv()
 app = Flask(__name__)
@@ -45,4 +45,9 @@ def projects():
 @app.route("/hobbies")
 def hobbies():
     """Render the hobbies page."""
-    return render_template("components/hobbies.html", title=PAGE_TITLES["hobbies"], active_page="hobbies")
+    return render_template(
+        "components/hobbies.html",
+        title=PAGE_TITLES["hobbies"],
+        active_page="hobbies",
+        hobbies=HOBBIES,
+    )

@@ -20,3 +20,21 @@ PAGE_TITLES = {
     "projects":   "Projects",
     "hobbies":    "Hobbies",
 }
+
+HOBBIES = [
+    {
+        "name": "Hobby One",
+        "description": "A short description of this hobby and why you enjoy it.",
+        "image": "img/hobby1.jpg",
+    },
+    {
+        "name": "Hobby Two",
+        "description": "A short description of this hobby and why you enjoy it.",
+        "image": "img/hobby2.jpg",
+    },
+    {
+        "name": "Hobby Three",
+        "description": "A short description of this hobby and why you enjoy it.",
+        "image": "img/hobby3.jpg",
+    },
+]
