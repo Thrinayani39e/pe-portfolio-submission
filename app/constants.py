@@ -21,20 +21,29 @@ PAGE_TITLES = {
     "hobbies":    "Hobbies",
 }
 
-HOBBIES = [
-    {
-        "name": "Hobby One",
-        "description": "A short description of this hobby and why you enjoy it.",
-        "image": "img/hobby1.jpg",
-    },
-    {
-        "name": "Hobby Two",
-        "description": "A short description of this hobby and why you enjoy it.",
-        "image": "img/hobby2.jpg",
-    },
-    {
-        "name": "Hobby Three",
-        "description": "A short description of this hobby and why you enjoy it.",
-        "image": "img/hobby3.jpg",
-    },
-]
+HOBBIES = {
+    "ruth": [
+        {
+            "name": "Hobby One",
+            "description": "A short description of this hobby and why Ruth enjoys it.",
+            "image": "img/hobbies/ruth/hobby1.jpg",
+        },
+        {
+            "name": "Hobby Two",
+            "description": "A short description of this hobby and why Ruth enjoys it.",
+            "image": "img/hobbies/ruth/hobby2.jpg",
+        },
+    ],
+    "thrinayani": [
+        {
+            "name": "Hobby One",
+            "description": "A short description of this hobby and why Thrinayani enjoys it.",
+            "image": "img/hobbies/thrinayani/hobby1.jpg",
+        },
+        {
+            "name": "Hobby Two",
+            "description": "A short description of this hobby and why Thrinayani enjoys it.",
+            "image": "img/hobbies/thrinayani/hobby2.jpg",
+        },
+    ],
+}
