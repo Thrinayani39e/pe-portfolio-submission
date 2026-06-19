@@ -36,14 +36,14 @@ HOBBIES = {
     ],
     "thrinayani": [
         {
-            "name": "Hobby One",
-            "description": "A short description of this hobby and why Thrinayani enjoys it.",
-            "image": "img/hobbies/thrinayani/hobby1.jpg",
+            "name": "Painting and Art",
+            "description": "My go-to stress reliever and 'touch some grass' activity — painting and art help me decompress and reset.",
+            "image": "img/hobbies/thrinayani/art.jpeg",
         },
         {
-            "name": "Hobby Two",
-            "description": "A short description of this hobby and why Thrinayani enjoys it.",
-            "image": "img/hobbies/thrinayani/hobby2.jpg",
+            "name": "Cafe Hopping",
+            "description": "I love trying new coffee varieties and different cuisines — there's always a new spot to explore!",
+            "image": "img/hobbies/thrinayani/cafe.jpeg",
         },
     ],
 }
