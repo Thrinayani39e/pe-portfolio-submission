@@ -21,25 +21,29 @@ PAGE_TITLES = {
     "hobbies":    "Hobbies",
 }
 
-EXPERIENCES = [
-    {
-        "company": "Company Name",
-        "role": "Your Job Title",
-        "dates": "Month Year – Month Year",
-        "bullets": [
-            "Describe a key accomplishment or responsibility here.",
-            "Another impact you had — quantify it if you can.",
-            "One more highlight from this role.",
-        ],
-    },
-    {
-        "company": "Another Company",
-        "role": "Your Role",
-        "dates": "Month Year – Month Year",
-        "bullets": [
-            "What you built, shipped, or improved.",
-            "A skill or tool you used heavily.",
-        ],
-    },
-]
-
+HOBBIES = {
+    "ruth": [
+        {
+            "name": "Hobby One",
+            "description": "A short description of this hobby and why Ruth enjoys it.",
+            "image": "img/hobbies/ruth/hobby1.jpg",
+        },
+        {
+            "name": "Hobby Two",
+            "description": "A short description of this hobby and why Ruth enjoys it.",
+            "image": "img/hobbies/ruth/hobby2.jpg",
+        },
+    ],
+    "thrinayani": [
+        {
+            "name": "Painting and Art",
+            "description": "My go-to stress reliever and 'touch some grass' activity — painting and art help me decompress and reset.",
+            "image": "img/hobbies/thrinayani/art.jpeg",
+        },
+        {
+            "name": "Cafe Hopping",
+            "description": "I love trying new coffee varieties and different cuisines — there's always a new spot to explore!",
+            "image": "img/hobbies/thrinayani/cafe.jpeg",
+        },
+    ],
+}

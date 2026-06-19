@@ -130,58 +130,64 @@ body {
     margin: 0;
 }
 
-.section-container {
-    max-width: 860px;
-    margin: 0 auto 50px;
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 28px;
+    max-width: 1000px;
+    margin: 0 auto 60px;
     padding: 0 20px;
 }
 
-.section-title {
-    font-size: 26px;
-    font-weight: 700;
-    color: #1d539f;
-    border-bottom: 3px solid #1d539f;
-    padding-bottom: 8px;
-    margin-bottom: 24px;
-}
-
-.experience-card {
+.hobby-card {
     background: white;
     border-radius: 8px;
-    padding: 24px;
-    margin-bottom: 20px;
+    overflow: hidden;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-.experience-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 12px;
+.hobby-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
 
-.experience-role {
+.hobby-info {
+    padding: 16px 20px 20px;
+}
+
+.hobby-info h3 {
     font-size: 18px;
     font-weight: 700;
-    margin: 0 0 4px;
-    color: #222;
+    color: #1d539f;
+    margin: 0 0 8px;
 }
 
-.experience-company {
-    font-size: 15px;
-    color: #555;
-}
-
-.experience-dates {
+.hobby-info p {
     font-size: 14px;
-    color: #888;
-    white-space: nowrap;
-    margin-left: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
 }
 
-.experience-bullets {
+.hobbies-section {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.hobbies-person-header {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1d539f;
+    margin: 0 0 24px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1d539f;
+}
+
+.hobbies-section .hobbies-grid {
+    max-width: 100%;
     margin: 0;
-    padding-left: 20px;
-    color: #444;
-    line-height: 1.7;
+    padding: 0;
 }
